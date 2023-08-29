@@ -11,6 +11,7 @@
 		9F15C8452A9CF01A00A6CF82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15C8442A9CF01A00A6CF82 /* ContentView.swift */; };
 		9F15C8472A9CF01B00A6CF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F15C8462A9CF01B00A6CF82 /* Assets.xcassets */; };
 		9F15C84A2A9CF01B00A6CF82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F15C8492A9CF01B00A6CF82 /* Preview Assets.xcassets */; };
+		9F15C8542A9D29E700A6CF82 /* NewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15C8532A9D29E700A6CF82 /* NewContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9F15C8442A9CF01A00A6CF82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F15C8462A9CF01B00A6CF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F15C8492A9CF01B00A6CF82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F15C8532A9D29E700A6CF82 /* NewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9F15C8422A9CF01A00A6CF82 /* DiceAppApp.swift */,
+				9F15C8532A9D29E700A6CF82 /* NewContentView.swift */,
 				9F15C8442A9CF01A00A6CF82 /* ContentView.swift */,
 				9F15C8462A9CF01B00A6CF82 /* Assets.xcassets */,
 				9F15C8482A9CF01B00A6CF82 /* Preview Content */,
@@ -83,6 +86,8 @@
 			dependencies = (
 			);
 			name = DiceApp;
+			packageProductDependencies = (
+			);
 			productName = DiceApp;
 			productReference = 9F15C83F2A9CF01A00A6CF82 /* DiceApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,8 @@
 				Base,
 			);
 			mainGroup = 9F15C8362A9CF01A00A6CF82;
+			packageReferences = (
+			);
 			productRefGroup = 9F15C8402A9CF01A00A6CF82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F15C8452A9CF01A00A6CF82 /* ContentView.swift in Sources */,
+				9F15C8542A9D29E700A6CF82 /* NewContentView.swift in Sources */,
 				9F15C8432A9CF01A00A6CF82 /* DiceAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
